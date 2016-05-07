@@ -15,6 +15,7 @@
 		8FBBD6131CDDF97D001E6EB2 /* __7____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD6121CDDF97D001E6EB2 /* __7____Tests.m */; };
 		8FBBD61E1CDDF97D001E6EB2 /* __7____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD61D1CDDF97D001E6EB2 /* __7____UITests.m */; };
 		8FBBD6311CDDFD8C001E6EB2 /* news.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBBD6301CDDFD8C001E6EB2 /* news.storyboard */; };
+		8FBBD6341CDE113E001E6EB2 /* BTMNewsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBBD6331CDE113E001E6EB2 /* BTMNewsCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8FBBD61D1CDDF97D001E6EB2 /* __7____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__7____UITests.m"; sourceTree = "<group>"; };
 		8FBBD61F1CDDF97D001E6EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FBBD6301CDDFD8C001E6EB2 /* news.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = news.storyboard; path = ../../news.storyboard; sourceTree = "<group>"; };
+		8FBBD6321CDE113E001E6EB2 /* BTMNewsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMNewsCollectionViewController.h; sourceTree = "<group>"; };
+		8FBBD6331CDE113E001E6EB2 /* BTMNewsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMNewsCollectionViewController.m; sourceTree = "<group>"; };
 		A379E18D75782BBBD76FBFB1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -187,6 +190,8 @@
 			isa = PBXGroup;
 			children = (
 				8FBBD6301CDDFD8C001E6EB2 /* news.storyboard */,
+				8FBBD6321CDE113E001E6EB2 /* BTMNewsCollectionViewController.h */,
+				8FBBD6331CDE113E001E6EB2 /* BTMNewsCollectionViewController.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -384,6 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FBBD6341CDE113E001E6EB2 /* BTMNewsCollectionViewController.m in Sources */,
 				8FBBD5FD1CDDF97D001E6EB2 /* AppDelegate.m in Sources */,
 				8FBBD5FA1CDDF97D001E6EB2 /* main.m in Sources */,
 			);
